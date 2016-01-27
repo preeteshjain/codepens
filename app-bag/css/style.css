@@ -1,0 +1,125 @@
+html, body {
+    background-color: #34495e;
+}
+.myapp-container {
+    position: absolute;
+    z-index: 2;
+    width: 450px;
+    height: 450px;
+    border: 15px solid #e74c3c;
+    background-color: #ecf0f1;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.myapp-img {
+    position: absolute;
+    z-index: 3;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    -ms-transform: translate(-50%, -50%);
+    -o-transition-property: top;
+    -o-transition-duration: 0.3s;
+    -moz-transform: translate(-50%, -50%);
+    -moz-transition-property: top;
+    -moz-transition-duration: 0.3s;
+    -webkit-transform: translate(-50%, -50%);
+    -webkit-transition-property: top;
+    -webkit-transition-duration: 0.3s;
+    transform: translate(-50%, -50%);
+    transition-property: top;
+    transition-duration: 0.3s;
+}
+.myapp-img img {
+    position: absolute;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    -ms-transform: translate(-50%, -50%);
+    -o-transition-property: top, width;
+    -o-transition-duration: 0.3s;
+    -moz-transform: translate(-50%, -50%);
+    -moz-transition-property: top, width;
+    -moz-transition-duration: 0.3s;
+    -webkit-transform: translate(-50%, -50%);
+    -webkit-transition-property: top, width;
+    -webkit-transition-duration: 0.3s;
+    transform: translate(-50%, -50%);
+    transition-property: top, width;
+    transition-duration: 0.3s;
+}
+.myapp-text {
+    position: absolute;
+    z-index: 0;
+    color: black;
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family:'Helvetica', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+.myapp-text .fa {
+    font-size: 2em;
+    color: #f39c12;
+}
+.myapp-topdr {
+    position: absolute;
+    z-index: 2;
+    height: 225px;
+    width: 100%;
+    top: 0;
+    background-color: #3498db;
+    -o-transition-property: height;
+    -o-transition-duration: 0.3s;
+    -moz-transition-property: height;
+    -moz-transition-duration: 0.3s;
+    -webkit-transition-property: height;
+    -webkit-transition-duration: 0.3s;
+    transition-property: height;
+    transition-duration: 0.3s;
+}
+.myapp-botdr {
+    position: absolute;
+    z-index: 1;
+    height: 225px;
+    width: 100%;
+    bottom: 0;
+    background-color: #e74c3c;
+    -o-transition-property: height;
+    -o-transition-duration: 0.3s;
+    -moz-transition-property: height;
+    -moz-transition-duration: 0.3s;
+    -webkit-transition-property: height;
+    -webkit-transition-duration: 0.3s;
+    transition-property: height;
+    transition-duration: 0.3s;
+}
+.myapp-container:hover {
+    cursor: pointer;
+}
+.myapp-container:hover .myapp-topdr {
+    height: 30%;
+}
+.myapp-container:hover .myapp-botdr {
+    height: 0;
+}
+.myapp-container:hover .myapp-img {
+    top: 25%;
+}
+.myapp-container:hover .myapp-img img {
+    top: 25%;
+    width: 50%;
+}

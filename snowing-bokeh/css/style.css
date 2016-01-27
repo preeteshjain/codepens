@@ -1,0 +1,1325 @@
+body {
+  background: black; }
+
+.container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: white; }
+
+.bubble {
+  position: absolute;
+  background: white;
+  border-radius: 100%;
+  opacity: 0; }
+
+@keyframes bubbling {
+  0% {
+    opacity: 0; }
+  75% {
+    opacity: 1; }
+  100% {
+    top: 89.5%;
+    opacity: 0;
+    display: none; } }
+.bubbling-speed-1 {
+  animation: bubbling 1s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-2 {
+  animation: bubbling 2s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-3 {
+  animation: bubbling 3s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-4 {
+  animation: bubbling 4s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-5 {
+  animation: bubbling 5s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-6 {
+  animation: bubbling 6s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-7 {
+  animation: bubbling 7s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-8 {
+  animation: bubbling 8s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-9 {
+  animation: bubbling 9s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-10 {
+  animation: bubbling 10s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-11 {
+  animation: bubbling 11s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-12 {
+  animation: bubbling 12s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-13 {
+  animation: bubbling 13s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-14 {
+  animation: bubbling 14s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-15 {
+  animation: bubbling 15s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-16 {
+  animation: bubbling 16s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-17 {
+  animation: bubbling 17s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-18 {
+  animation: bubbling 18s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-19 {
+  animation: bubbling 19s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-20 {
+  animation: bubbling 20s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-21 {
+  animation: bubbling 21s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-22 {
+  animation: bubbling 22s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-23 {
+  animation: bubbling 23s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-24 {
+  animation: bubbling 24s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-25 {
+  animation: bubbling 25s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-26 {
+  animation: bubbling 26s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-27 {
+  animation: bubbling 27s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-28 {
+  animation: bubbling 28s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-29 {
+  animation: bubbling 29s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-30 {
+  animation: bubbling 30s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-31 {
+  animation: bubbling 31s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-32 {
+  animation: bubbling 32s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-33 {
+  animation: bubbling 33s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-34 {
+  animation: bubbling 34s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-35 {
+  animation: bubbling 35s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-36 {
+  animation: bubbling 36s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-37 {
+  animation: bubbling 37s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-38 {
+  animation: bubbling 38s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-39 {
+  animation: bubbling 39s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-40 {
+  animation: bubbling 40s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-41 {
+  animation: bubbling 41s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-42 {
+  animation: bubbling 42s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-43 {
+  animation: bubbling 43s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-44 {
+  animation: bubbling 44s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-45 {
+  animation: bubbling 45s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-46 {
+  animation: bubbling 46s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-47 {
+  animation: bubbling 47s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-48 {
+  animation: bubbling 48s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-49 {
+  animation: bubbling 49s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-50 {
+  animation: bubbling 50s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-51 {
+  animation: bubbling 51s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-52 {
+  animation: bubbling 52s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-53 {
+  animation: bubbling 53s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-54 {
+  animation: bubbling 54s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-55 {
+  animation: bubbling 55s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-56 {
+  animation: bubbling 56s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-57 {
+  animation: bubbling 57s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-58 {
+  animation: bubbling 58s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-59 {
+  animation: bubbling 59s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-60 {
+  animation: bubbling 60s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-61 {
+  animation: bubbling 61s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-62 {
+  animation: bubbling 62s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-63 {
+  animation: bubbling 63s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-64 {
+  animation: bubbling 64s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-65 {
+  animation: bubbling 65s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-66 {
+  animation: bubbling 66s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-67 {
+  animation: bubbling 67s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-68 {
+  animation: bubbling 68s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-69 {
+  animation: bubbling 69s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-70 {
+  animation: bubbling 70s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-71 {
+  animation: bubbling 71s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-72 {
+  animation: bubbling 72s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-73 {
+  animation: bubbling 73s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-74 {
+  animation: bubbling 74s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-75 {
+  animation: bubbling 75s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-76 {
+  animation: bubbling 76s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-77 {
+  animation: bubbling 77s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-78 {
+  animation: bubbling 78s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-79 {
+  animation: bubbling 79s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-80 {
+  animation: bubbling 80s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-81 {
+  animation: bubbling 81s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-82 {
+  animation: bubbling 82s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-83 {
+  animation: bubbling 83s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-84 {
+  animation: bubbling 84s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-85 {
+  animation: bubbling 85s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-86 {
+  animation: bubbling 86s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-87 {
+  animation: bubbling 87s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-88 {
+  animation: bubbling 88s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-89 {
+  animation: bubbling 89s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-90 {
+  animation: bubbling 90s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-91 {
+  animation: bubbling 91s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-92 {
+  animation: bubbling 92s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-93 {
+  animation: bubbling 93s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-94 {
+  animation: bubbling 94s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-95 {
+  animation: bubbling 95s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-96 {
+  animation: bubbling 96s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-97 {
+  animation: bubbling 97s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-98 {
+  animation: bubbling 98s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-99 {
+  animation: bubbling 99s infinite;
+  animation-delay: 0.5s; }
+
+.bubbling-speed-100 {
+  animation: bubbling 100s infinite;
+  animation-delay: 0.5s; }
+
+.bubble-size-1 {
+  width: 1px;
+  height: 1px; }
+
+.bubble-size-2 {
+  width: 2px;
+  height: 2px; }
+
+.bubble-size-3 {
+  width: 3px;
+  height: 3px; }
+
+.bubble-size-4 {
+  width: 4px;
+  height: 4px; }
+
+.bubble-size-5 {
+  width: 5px;
+  height: 5px; }
+
+.bubble-size-6 {
+  width: 6px;
+  height: 6px; }
+
+.bubble-size-7 {
+  width: 7px;
+  height: 7px; }
+
+.bubble-size-8 {
+  width: 8px;
+  height: 8px; }
+
+.bubble-size-9 {
+  width: 9px;
+  height: 9px; }
+
+.bubble-size-10 {
+  width: 10px;
+  height: 10px; }
+
+.bubble-size-11 {
+  width: 11px;
+  height: 11px; }
+
+.bubble-size-12 {
+  width: 12px;
+  height: 12px; }
+
+.bubble-size-13 {
+  width: 13px;
+  height: 13px; }
+
+.bubble-size-14 {
+  width: 14px;
+  height: 14px; }
+
+.bubble-size-15 {
+  width: 15px;
+  height: 15px; }
+
+.bubble-size-16 {
+  width: 16px;
+  height: 16px; }
+
+.bubble-size-17 {
+  width: 17px;
+  height: 17px; }
+
+.bubble-size-18 {
+  width: 18px;
+  height: 18px; }
+
+.bubble-size-19 {
+  width: 19px;
+  height: 19px; }
+
+.bubble-size-20 {
+  width: 20px;
+  height: 20px; }
+
+.bubble-size-21 {
+  width: 21px;
+  height: 21px; }
+
+.bubble-size-22 {
+  width: 22px;
+  height: 22px; }
+
+.bubble-size-23 {
+  width: 23px;
+  height: 23px; }
+
+.bubble-size-24 {
+  width: 24px;
+  height: 24px; }
+
+.bubble-size-25 {
+  width: 25px;
+  height: 25px; }
+
+.bubble-size-26 {
+  width: 26px;
+  height: 26px; }
+
+.bubble-size-27 {
+  width: 27px;
+  height: 27px; }
+
+.bubble-size-28 {
+  width: 28px;
+  height: 28px; }
+
+.bubble-size-29 {
+  width: 29px;
+  height: 29px; }
+
+.bubble-size-30 {
+  width: 30px;
+  height: 30px; }
+
+.bubble-size-31 {
+  width: 31px;
+  height: 31px; }
+
+.bubble-size-32 {
+  width: 32px;
+  height: 32px; }
+
+.bubble-size-33 {
+  width: 33px;
+  height: 33px; }
+
+.bubble-size-34 {
+  width: 34px;
+  height: 34px; }
+
+.bubble-size-35 {
+  width: 35px;
+  height: 35px; }
+
+.bubble-size-36 {
+  width: 36px;
+  height: 36px; }
+
+.bubble-size-37 {
+  width: 37px;
+  height: 37px; }
+
+.bubble-size-38 {
+  width: 38px;
+  height: 38px; }
+
+.bubble-size-39 {
+  width: 39px;
+  height: 39px; }
+
+.bubble-size-40 {
+  width: 40px;
+  height: 40px; }
+
+.bubble-size-41 {
+  width: 41px;
+  height: 41px; }
+
+.bubble-size-42 {
+  width: 42px;
+  height: 42px; }
+
+.bubble-size-43 {
+  width: 43px;
+  height: 43px; }
+
+.bubble-size-44 {
+  width: 44px;
+  height: 44px; }
+
+.bubble-size-45 {
+  width: 45px;
+  height: 45px; }
+
+.bubble-size-46 {
+  width: 46px;
+  height: 46px; }
+
+.bubble-size-47 {
+  width: 47px;
+  height: 47px; }
+
+.bubble-size-48 {
+  width: 48px;
+  height: 48px; }
+
+.bubble-size-49 {
+  width: 49px;
+  height: 49px; }
+
+.bubble-size-50 {
+  width: 50px;
+  height: 50px; }
+
+.bubble-size-51 {
+  width: 51px;
+  height: 51px; }
+
+.bubble-size-52 {
+  width: 52px;
+  height: 52px; }
+
+.bubble-size-53 {
+  width: 53px;
+  height: 53px; }
+
+.bubble-size-54 {
+  width: 54px;
+  height: 54px; }
+
+.bubble-size-55 {
+  width: 55px;
+  height: 55px; }
+
+.bubble-size-56 {
+  width: 56px;
+  height: 56px; }
+
+.bubble-size-57 {
+  width: 57px;
+  height: 57px; }
+
+.bubble-size-58 {
+  width: 58px;
+  height: 58px; }
+
+.bubble-size-59 {
+  width: 59px;
+  height: 59px; }
+
+.bubble-size-60 {
+  width: 60px;
+  height: 60px; }
+
+.bubble-size-61 {
+  width: 61px;
+  height: 61px; }
+
+.bubble-size-62 {
+  width: 62px;
+  height: 62px; }
+
+.bubble-size-63 {
+  width: 63px;
+  height: 63px; }
+
+.bubble-size-64 {
+  width: 64px;
+  height: 64px; }
+
+.bubble-size-65 {
+  width: 65px;
+  height: 65px; }
+
+.bubble-size-66 {
+  width: 66px;
+  height: 66px; }
+
+.bubble-size-67 {
+  width: 67px;
+  height: 67px; }
+
+.bubble-size-68 {
+  width: 68px;
+  height: 68px; }
+
+.bubble-size-69 {
+  width: 69px;
+  height: 69px; }
+
+.bubble-size-70 {
+  width: 70px;
+  height: 70px; }
+
+.bubble-size-71 {
+  width: 71px;
+  height: 71px; }
+
+.bubble-size-72 {
+  width: 72px;
+  height: 72px; }
+
+.bubble-size-73 {
+  width: 73px;
+  height: 73px; }
+
+.bubble-size-74 {
+  width: 74px;
+  height: 74px; }
+
+.bubble-size-75 {
+  width: 75px;
+  height: 75px; }
+
+.bubble-vpos-1 {
+  top: 1%; }
+
+.bubble-hpos-1 {
+  left: 1%; }
+
+.bubble-vpos-2 {
+  top: 2%; }
+
+.bubble-hpos-2 {
+  left: 2%; }
+
+.bubble-vpos-3 {
+  top: 3%; }
+
+.bubble-hpos-3 {
+  left: 3%; }
+
+.bubble-vpos-4 {
+  top: 4%; }
+
+.bubble-hpos-4 {
+  left: 4%; }
+
+.bubble-vpos-5 {
+  top: 5%; }
+
+.bubble-hpos-5 {
+  left: 5%; }
+
+.bubble-vpos-6 {
+  top: 6%; }
+
+.bubble-hpos-6 {
+  left: 6%; }
+
+.bubble-vpos-7 {
+  top: 7%; }
+
+.bubble-hpos-7 {
+  left: 7%; }
+
+.bubble-vpos-8 {
+  top: 8%; }
+
+.bubble-hpos-8 {
+  left: 8%; }
+
+.bubble-vpos-9 {
+  top: 9%; }
+
+.bubble-hpos-9 {
+  left: 9%; }
+
+.bubble-vpos-10 {
+  top: 10%; }
+
+.bubble-hpos-10 {
+  left: 10%; }
+
+.bubble-vpos-11 {
+  top: 11%; }
+
+.bubble-hpos-11 {
+  left: 11%; }
+
+.bubble-vpos-12 {
+  top: 12%; }
+
+.bubble-hpos-12 {
+  left: 12%; }
+
+.bubble-vpos-13 {
+  top: 13%; }
+
+.bubble-hpos-13 {
+  left: 13%; }
+
+.bubble-vpos-14 {
+  top: 14%; }
+
+.bubble-hpos-14 {
+  left: 14%; }
+
+.bubble-vpos-15 {
+  top: 15%; }
+
+.bubble-hpos-15 {
+  left: 15%; }
+
+.bubble-vpos-16 {
+  top: 16%; }
+
+.bubble-hpos-16 {
+  left: 16%; }
+
+.bubble-vpos-17 {
+  top: 17%; }
+
+.bubble-hpos-17 {
+  left: 17%; }
+
+.bubble-vpos-18 {
+  top: 18%; }
+
+.bubble-hpos-18 {
+  left: 18%; }
+
+.bubble-vpos-19 {
+  top: 19%; }
+
+.bubble-hpos-19 {
+  left: 19%; }
+
+.bubble-vpos-20 {
+  top: 20%; }
+
+.bubble-hpos-20 {
+  left: 20%; }
+
+.bubble-vpos-21 {
+  top: 21%; }
+
+.bubble-hpos-21 {
+  left: 21%; }
+
+.bubble-vpos-22 {
+  top: 22%; }
+
+.bubble-hpos-22 {
+  left: 22%; }
+
+.bubble-vpos-23 {
+  top: 23%; }
+
+.bubble-hpos-23 {
+  left: 23%; }
+
+.bubble-vpos-24 {
+  top: 24%; }
+
+.bubble-hpos-24 {
+  left: 24%; }
+
+.bubble-vpos-25 {
+  top: 25%; }
+
+.bubble-hpos-25 {
+  left: 25%; }
+
+.bubble-vpos-26 {
+  top: 26%; }
+
+.bubble-hpos-26 {
+  left: 26%; }
+
+.bubble-vpos-27 {
+  top: 27%; }
+
+.bubble-hpos-27 {
+  left: 27%; }
+
+.bubble-vpos-28 {
+  top: 28%; }
+
+.bubble-hpos-28 {
+  left: 28%; }
+
+.bubble-vpos-29 {
+  top: 29%; }
+
+.bubble-hpos-29 {
+  left: 29%; }
+
+.bubble-vpos-30 {
+  top: 30%; }
+
+.bubble-hpos-30 {
+  left: 30%; }
+
+.bubble-vpos-31 {
+  top: 31%; }
+
+.bubble-hpos-31 {
+  left: 31%; }
+
+.bubble-vpos-32 {
+  top: 32%; }
+
+.bubble-hpos-32 {
+  left: 32%; }
+
+.bubble-vpos-33 {
+  top: 33%; }
+
+.bubble-hpos-33 {
+  left: 33%; }
+
+.bubble-vpos-34 {
+  top: 34%; }
+
+.bubble-hpos-34 {
+  left: 34%; }
+
+.bubble-vpos-35 {
+  top: 35%; }
+
+.bubble-hpos-35 {
+  left: 35%; }
+
+.bubble-vpos-36 {
+  top: 36%; }
+
+.bubble-hpos-36 {
+  left: 36%; }
+
+.bubble-vpos-37 {
+  top: 37%; }
+
+.bubble-hpos-37 {
+  left: 37%; }
+
+.bubble-vpos-38 {
+  top: 38%; }
+
+.bubble-hpos-38 {
+  left: 38%; }
+
+.bubble-vpos-39 {
+  top: 39%; }
+
+.bubble-hpos-39 {
+  left: 39%; }
+
+.bubble-vpos-40 {
+  top: 40%; }
+
+.bubble-hpos-40 {
+  left: 40%; }
+
+.bubble-vpos-41 {
+  top: 41%; }
+
+.bubble-hpos-41 {
+  left: 41%; }
+
+.bubble-vpos-42 {
+  top: 42%; }
+
+.bubble-hpos-42 {
+  left: 42%; }
+
+.bubble-vpos-43 {
+  top: 43%; }
+
+.bubble-hpos-43 {
+  left: 43%; }
+
+.bubble-vpos-44 {
+  top: 44%; }
+
+.bubble-hpos-44 {
+  left: 44%; }
+
+.bubble-vpos-45 {
+  top: 45%; }
+
+.bubble-hpos-45 {
+  left: 45%; }
+
+.bubble-vpos-46 {
+  top: 46%; }
+
+.bubble-hpos-46 {
+  left: 46%; }
+
+.bubble-vpos-47 {
+  top: 47%; }
+
+.bubble-hpos-47 {
+  left: 47%; }
+
+.bubble-vpos-48 {
+  top: 48%; }
+
+.bubble-hpos-48 {
+  left: 48%; }
+
+.bubble-vpos-49 {
+  top: 49%; }
+
+.bubble-hpos-49 {
+  left: 49%; }
+
+.bubble-vpos-50 {
+  top: 50%; }
+
+.bubble-hpos-50 {
+  left: 50%; }
+
+.bubble-vpos-51 {
+  top: 51%; }
+
+.bubble-hpos-51 {
+  left: 51%; }
+
+.bubble-vpos-52 {
+  top: 52%; }
+
+.bubble-hpos-52 {
+  left: 52%; }
+
+.bubble-vpos-53 {
+  top: 53%; }
+
+.bubble-hpos-53 {
+  left: 53%; }
+
+.bubble-vpos-54 {
+  top: 54%; }
+
+.bubble-hpos-54 {
+  left: 54%; }
+
+.bubble-vpos-55 {
+  top: 55%; }
+
+.bubble-hpos-55 {
+  left: 55%; }
+
+.bubble-vpos-56 {
+  top: 56%; }
+
+.bubble-hpos-56 {
+  left: 56%; }
+
+.bubble-vpos-57 {
+  top: 57%; }
+
+.bubble-hpos-57 {
+  left: 57%; }
+
+.bubble-vpos-58 {
+  top: 58%; }
+
+.bubble-hpos-58 {
+  left: 58%; }
+
+.bubble-vpos-59 {
+  top: 59%; }
+
+.bubble-hpos-59 {
+  left: 59%; }
+
+.bubble-vpos-60 {
+  top: 60%; }
+
+.bubble-hpos-60 {
+  left: 60%; }
+
+.bubble-vpos-61 {
+  top: 61%; }
+
+.bubble-hpos-61 {
+  left: 61%; }
+
+.bubble-vpos-62 {
+  top: 62%; }
+
+.bubble-hpos-62 {
+  left: 62%; }
+
+.bubble-vpos-63 {
+  top: 63%; }
+
+.bubble-hpos-63 {
+  left: 63%; }
+
+.bubble-vpos-64 {
+  top: 64%; }
+
+.bubble-hpos-64 {
+  left: 64%; }
+
+.bubble-vpos-65 {
+  top: 65%; }
+
+.bubble-hpos-65 {
+  left: 65%; }
+
+.bubble-vpos-66 {
+  top: 66%; }
+
+.bubble-hpos-66 {
+  left: 66%; }
+
+.bubble-vpos-67 {
+  top: 67%; }
+
+.bubble-hpos-67 {
+  left: 67%; }
+
+.bubble-vpos-68 {
+  top: 68%; }
+
+.bubble-hpos-68 {
+  left: 68%; }
+
+.bubble-vpos-69 {
+  top: 69%; }
+
+.bubble-hpos-69 {
+  left: 69%; }
+
+.bubble-vpos-70 {
+  top: 70%; }
+
+.bubble-hpos-70 {
+  left: 70%; }
+
+.bubble-vpos-71 {
+  top: 71%; }
+
+.bubble-hpos-71 {
+  left: 71%; }
+
+.bubble-vpos-72 {
+  top: 72%; }
+
+.bubble-hpos-72 {
+  left: 72%; }
+
+.bubble-vpos-73 {
+  top: 73%; }
+
+.bubble-hpos-73 {
+  left: 73%; }
+
+.bubble-vpos-74 {
+  top: 74%; }
+
+.bubble-hpos-74 {
+  left: 74%; }
+
+.bubble-vpos-75 {
+  top: 75%; }
+
+.bubble-hpos-75 {
+  left: 75%; }
+
+.bubble-vpos-76 {
+  top: 76%; }
+
+.bubble-hpos-76 {
+  left: 76%; }
+
+.bubble-vpos-77 {
+  top: 77%; }
+
+.bubble-hpos-77 {
+  left: 77%; }
+
+.bubble-vpos-78 {
+  top: 78%; }
+
+.bubble-hpos-78 {
+  left: 78%; }
+
+.bubble-vpos-79 {
+  top: 79%; }
+
+.bubble-hpos-79 {
+  left: 79%; }
+
+.bubble-vpos-80 {
+  top: 80%; }
+
+.bubble-hpos-80 {
+  left: 80%; }
+
+.bubble-vpos-81 {
+  top: 81%; }
+
+.bubble-hpos-81 {
+  left: 81%; }
+
+.bubble-vpos-82 {
+  top: 82%; }
+
+.bubble-hpos-82 {
+  left: 82%; }
+
+.bubble-vpos-83 {
+  top: 83%; }
+
+.bubble-hpos-83 {
+  left: 83%; }
+
+.bubble-vpos-84 {
+  top: 84%; }
+
+.bubble-hpos-84 {
+  left: 84%; }
+
+.bubble-vpos-85 {
+  top: 85%; }
+
+.bubble-hpos-85 {
+  left: 85%; }
+
+.bubble-vpos-86 {
+  top: 86%; }
+
+.bubble-hpos-86 {
+  left: 86%; }
+
+.bubble-vpos-87 {
+  top: 87%; }
+
+.bubble-hpos-87 {
+  left: 87%; }
+
+.bubble-vpos-88 {
+  top: 88%; }
+
+.bubble-hpos-88 {
+  left: 88%; }
+
+.bubble-vpos-89 {
+  top: 89%; }
+
+.bubble-hpos-89 {
+  left: 89%; }
+
+.bubble-vpos-90 {
+  top: 90%; }
+
+.bubble-hpos-90 {
+  left: 90%; }
+
+.bubble-vpos-91 {
+  top: 91%; }
+
+.bubble-hpos-91 {
+  left: 91%; }
+
+.bubble-vpos-92 {
+  top: 92%; }
+
+.bubble-hpos-92 {
+  left: 92%; }
+
+.bubble-vpos-93 {
+  top: 93%; }
+
+.bubble-hpos-93 {
+  left: 93%; }
+
+.bubble-vpos-94 {
+  top: 94%; }
+
+.bubble-hpos-94 {
+  left: 94%; }
+
+.bubble-vpos-95 {
+  top: 95%; }
+
+.bubble-hpos-95 {
+  left: 95%; }
+
+.bubble-vpos-96 {
+  top: 96%; }
+
+.bubble-hpos-96 {
+  left: 96%; }
+
+.bubble-vpos-97 {
+  top: 97%; }
+
+.bubble-hpos-97 {
+  left: 97%; }
+
+.bubble-vpos-98 {
+  top: 98%; }
+
+.bubble-hpos-98 {
+  left: 98%; }
+
+.bubble-vpos-99 {
+  top: 99%; }
+
+.bubble-hpos-99 {
+  left: 99%; }
+
+.bubble-vpos-100 {
+  top: 100%; }
+
+.bubble-hpos-100 {
+  left: 100%; }
+
+/*# sourceMappingURL=style.css.map */
