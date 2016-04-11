@@ -1,0 +1,89 @@
+// RESPONSIVE BREAKPOINTS
+$break-laptop: 1366px
+$break-large: 1200px
+$break-small: 900px
+$skeleton-bp: 768px
+$break-650: 650px
+$break-520: 520px
+$break-470: 470px
+$break-420: 420px
+
+=bp($bpx)
+    @media screen and (max-width: $bpx)
+        @content
+
+=pmr()
+    padding: 0
+    margin: 0
+
+=vh-center($position: absolute)
+    position: $position
+    top: 50%
+    left: 50%
+    margin-right: -50%
+    transform: translate(-50%, -50%)
+
+=v-center($position: relative)
+    position: $position
+    top: 50%
+    transform: translateY(-50%)
+
+=h-center($position: absolute)
+    position: $position
+    left: 50%
+    transform: translateX(-50%)
+
+=db($color: red, $style: solid)
+    border: 2px $style $color
+
+body
+    background: #eee
+    font-family: 'Montserrat', sans-serif
+    padding: 2%
+    &:hover
+        cursor: default
+
+.share-shoot
+    width: 100%
+    position: relative
+    &__title
+        border-radius: 5px
+        box-shadow: 0 10px 0 #18a98b
+        z-index: 2
+        background: #1BBC9B
+        color: white
+        width: 10%
+        text-align: center
+        padding: 2%
+        font-size: 1.5em
+        transition: all ease 0.3s
+        +bp($break-520)
+            width: 20%
+            padding: 1%
+            font-size: 1em
+        &:active
+            margin-top: 5px
+            box-shadow: 0 5px 0 #18a98b
+        &:hover
+            opacity: 0.9            
+            cursor: pointer
+    &__icons
+        color: white
+        z-index: 1
+        display: none
+        opacity: 0
+        width: 20%
+        text-align: center
+        margin: 0 2%
+        +v-center(absolute)
+        list-style: none
+        +pmr()
+        font-size: 2em
+        +bp($break-520)
+            margin: 0 1%
+            font-size: 0.9em            
+        a
+            color: inherit
+        li
+            display: inline
+            padding: 0 5%
