@@ -1,0 +1,51 @@
+body {
+  background: #22A7F0; }
+
+.stacc-spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px; }
+  .stacc-spinner svg {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 25%; }
+  .stacc-spinner .last-s {
+    transform: rotate(-10deg);
+    fill: white;
+    animation: rotate3 4s infinite; }
+  .stacc-spinner .mid-s {
+    transform: rotate(-5deg);
+    animation: rotate2 4s infinite;
+    fill: #22A7F0; }
+  .stacc-spinner .first-s {
+    fill: white;
+    animation: rotate1 4s infinite; }
+
+@keyframes rotate1 {
+  0% {
+    transform: rotate(0deg); }
+  60% {
+    transform: rotate(360deg); }
+  100% {
+    transform: rotate(360deg); } }
+@keyframes rotate2 {
+  0% {
+    transform: rotate(-7.5deg); }
+  60% {
+    transform: rotate(712.5deg); }
+  100% {
+    transform: rotate(712.5deg); } }
+@keyframes rotate3 {
+  0% {
+    transform: rotate(-15deg); }
+  60% {
+    transform: rotate(1065deg); }
+  100% {
+    transform: rotate(1065deg); } }
+
+/*# sourceMappingURL=style.css.map */

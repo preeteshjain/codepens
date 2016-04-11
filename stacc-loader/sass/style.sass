@@ -1,0 +1,58 @@
+body
+    background: #22A7F0
+
+.stacc-spinner
+    position: absolute
+    top: 50%
+    left: 50%
+    margin-right: -50%
+    transform: translate(-50%, -50%)
+    width: 100px
+    height: 100px
+
+    svg
+        position: absolute
+        width: 100px
+        height: 100px
+        border-radius: 25%
+        // padding: 20%
+
+    .last-s
+        transform: rotate(-10deg)
+        fill: white
+        animation: rotate3 4s infinite
+        // animation-delay: 0.2s
+    .mid-s
+        transform: rotate(-5deg)
+        animation-fill-mode:forwards
+        animation: rotate2 4s infinite
+        fill: #22A7F0
+        // animation-delay: 5.1s
+    .first-s
+        fill: white
+        animation-fill-mode:forwards
+        animation: rotate1 4s infinite
+
+@keyframes rotate1
+    0%
+        transform: rotate(0deg)
+    60%
+        transform: rotate(360deg)
+    100%
+        transform: rotate(360deg)
+
+@keyframes rotate2
+    0%
+        transform: rotate(-7.5deg)
+    60%
+        transform: rotate(712.5deg)
+    100%
+        transform: rotate(712.5deg)
+
+@keyframes rotate3
+    0%
+        transform: rotate(-15deg)
+    60%
+        transform: rotate(1065deg)
+    100%
+        transform: rotate(1065deg)
